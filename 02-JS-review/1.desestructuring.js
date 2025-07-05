@@ -152,8 +152,8 @@ const book = getBook(2);
 console.log(book.title, book.author, book.pages);
 
 //Acessado valores dos atributos do ojeto book com desestruturação
-const { title, author, pages } = book;
-console.log(title, author, pages);
+const { title, author, pages, genres } = book;
+console.log(title, author, pages, genres);
 
 //Acessando valores de um array sem desestruturação
 const first = genres[0];
